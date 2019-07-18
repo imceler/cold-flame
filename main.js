@@ -1,4 +1,4 @@
-const button = document.getElementById('menu') 
+const button = document.getElementById('toggler') 
 const menu = document.querySelector('.toggle-menu')
 const instagram = document.querySelector('.contact-link.instagram')
 const twitter = document.querySelector('.contact-link.twitter')
