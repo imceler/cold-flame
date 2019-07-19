@@ -9,5 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-mqpacker": "^7.0.0",
+    "postcss-cli": "^6.1.3",
+    "postcss-preset-env": "^6.7.0"
   }
 }
