@@ -1,3 +1,8 @@
+@custom-media --large screen and (max-width: 1200px);
+@custom-media --medium screen and (max-width: 768px);
+@custom-media --semi-small screen and (max-width: 480px);
+@custom-media --small screen and (max-width: 320px);
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -31,6 +36,13 @@ header {
     font-weight: 300;
     left: 0vw;
     margin: 3vh 12vw;
+}
+@media (--large) {
+    .title {
+        font-size: 35px;
+        left: 0vw;
+        margin: 3vh 12vw;
+    }
 }
 .list-nav {
     display: flex;
