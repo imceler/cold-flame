@@ -4,8 +4,8 @@ module.exports = {
         require('css-mqpacker')({}),
         require('postcss-custom-media')({}),
         require('autoprefixer')({}),
-        // require('cssnano')({
-        //     preset: 'default',
-        // })
+        require('cssnano')({
+            preset: 'default',
+        })
 	]
 }
