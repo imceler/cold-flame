@@ -559,5 +559,23 @@ header {
         top: 74%;
     }
 }
-
-
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 12;
+}
+.foot {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #0776A3;
+}
+.foot a {
+    text-decoration: none;
+}
+@media (--small) {
+    .foot {
+        font-size: 10px;
+    }
+}
